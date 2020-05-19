@@ -158,7 +158,7 @@ body .active-button {
   display: -ms-flexbox;
   display: flex;
   width: 71%;
-  max-width: 1195px;
+  max-width: 1211px;
   margin: auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -166,7 +166,7 @@ body .active-button {
 }
 
 .first-section .first-article .left-side {
-  padding: 0 1.25em;
+  padding: 0 37px;
   margin: auto 0;
   width: 570px;
 }
