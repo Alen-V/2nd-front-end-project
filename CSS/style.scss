@@ -557,13 +557,13 @@ $breakpoint-tablet: 992px;
     }
 }
 
-@media (max-width: $breakpoint-tablet) {
-    .button-container {
-        display: none;
-    }
+@media (max-width: 1120px) {
     .navbar {
         margin: 20px;
         justify-content: space-between;
+        .button-container {
+            display: none;
+        }
         .burger-button {
             display: flex;
         }
@@ -629,6 +629,7 @@ $breakpoint-tablet: 992px;
             }
         }
         .button-container {
+            display: flex;
             margin: 20px auto;
         }
         .button {
@@ -639,6 +640,9 @@ $breakpoint-tablet: 992px;
             margin-left: 0;
         }
     }
+}
+
+@media (max-width: $breakpoint-tablet) {
     .first-section {
         .first-article {
             display: grid;
