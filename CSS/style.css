@@ -414,6 +414,7 @@ body .active {
 }
 
 .fifth-section .card {
+  cursor: pointer;
   min-width: 371px;
   height: 579px;
   margin: 15px;
