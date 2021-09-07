@@ -599,7 +599,6 @@ body .active {
 .bottom-section .container-aside ul li:hover {
   -webkit-transform: scale(1.07);
           transform: scale(1.07);
-  background-color: rgba(203, 200, 200, 0.833);
 }
 
 .bottom-section .container-aside-input {
